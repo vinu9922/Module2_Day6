@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank", "Bank\Bank.csproj", "{DCDBD15C-5BC7-4682-8B48-33561D08308D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTest", "BankTest\BankTest.csproj", "{36EA2338-7FB0-47B1-A65C-A9E83EFE3CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApp", "CustomerApp\CustomerApp.csproj", "{C0A917F3-3234-4170-9B50-D4F85E546D6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCDBD15C-5BC7-4682-8B48-33561D08308D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDBD15C-5BC7-4682-8B48-33561D08308D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDBD15C-5BC7-4682-8B48-33561D08308D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDBD15C-5BC7-4682-8B48-33561D08308D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36EA2338-7FB0-47B1-A65C-A9E83EFE3CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36EA2338-7FB0-47B1-A65C-A9E83EFE3CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36EA2338-7FB0-47B1-A65C-A9E83EFE3CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36EA2338-7FB0-47B1-A65C-A9E83EFE3CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A917F3-3234-4170-9B50-D4F85E546D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A917F3-3234-4170-9B50-D4F85E546D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A917F3-3234-4170-9B50-D4F85E546D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A917F3-3234-4170-9B50-D4F85E546D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {247A6E90-81F4-468B-861C-97D1D409420E}
+	EndGlobalSection
+EndGlobal

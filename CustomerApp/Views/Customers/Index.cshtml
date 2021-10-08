@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@using CustomerApp.Models
+
+@{ 
+    var obj = new Customer();
+
+    obj.CustomerId = 1;
+    obj.Customer_name = "Vinu";
+    obj.Email_id = "g.v@";
+    obj.CustomerType = "gold";
+    obj.Contact_No = 9888;
+
+    //return Json(obj);
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    </head>
+<body>
+    <h1>@obj.CustomerId</h1>
+    <h1>@obj.Customer_name</h1>
+    <h1>@obj.Email_id</h1>
+    <h1>@obj.CustomerType</h1>
+</body>
+
+</html>
